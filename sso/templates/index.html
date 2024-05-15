@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Posts</title>
+</head>
+
+<body>
+    <h1>Hello {{name}}</h1>
+    <h2>Posts</h1>
+    <a href="{{ url_for('logout') }}">Logout</a>
+    <a href=""">New Post</a>
+    <ul>
+    {% for post in posts %}
+
+        <li>
+            <div>
+                <p>{{ post.content}}</p>
+            </div>
+        </li>
+    {% endfor %}
+    </ul>
+</body>
+
+</html>

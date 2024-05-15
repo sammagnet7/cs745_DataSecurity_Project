@@ -1,0 +1,5 @@
+Installation:
+
+wget https://downloads.mitmproxy.org/10.3.0/mitmproxy-10.3.0-linux-x86_64.tar.gz
+
+sudo apt install mitmproxy-10.3.0-linux-x86_64.tar.gz
